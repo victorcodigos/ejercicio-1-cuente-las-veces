@@ -10,11 +10,11 @@ console.log(contarPalabras ('Me gusta Valencia porque es una ciudad que hay play
 
 
 
-let string = "Buenos dias por la manana";
-let totalPalabras = 0;
+const string = "Buenos dias por la manana";
+const totalPalabras = 0;
 function contarLetras(letra) {
     let stringMinusculas = string.toLowerCase();
-    for (let i = 0; i < string.length; i++) {
+    for (const i = 0; i < string.length; i++) {
         if (letra === stringMinusculas[i]) {
             totalPalabras += 1;
         }
