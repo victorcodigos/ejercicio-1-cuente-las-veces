@@ -4,4 +4,4 @@ function contarPalabras (texto = ` ` ) {
     return texto.length ;
 }
 
-console.log(contarPalabras ('Valencia')); 
+console.log(contarPalabras ('Me gusta Valencia porque es una ciudad que hay playas')); 
